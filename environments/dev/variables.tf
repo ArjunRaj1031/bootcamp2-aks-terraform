@@ -1,0 +1,13 @@
+variable "subscription_id" {}
+variable "location" {}
+variable "rg_name" {}
+variable "vnet_name" {}
+variable "address_space" {}
+variable "subnet_name" {}
+variable "subnet_prefixes" {}
+variable "storage_account_name" {}
+variable "aks_name" {}
+variable "dns_prefix" {}
+variable "kubernetes_version" {}
+variable "node_count" {}
+variable "vm_size" {}

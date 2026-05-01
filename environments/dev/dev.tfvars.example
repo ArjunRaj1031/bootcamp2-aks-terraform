@@ -1,0 +1,13 @@
+subscription_id      = "6ae37b8f-148b-4391-b0cd-419a691a8487"
+location             = "Canada Central"
+rg_name              = "demo-aks"
+vnet_name            = "demo-vnet"
+address_space        = ["10.0.0.0/16"]
+subnet_name          = "aks-subnet"
+subnet_prefixes      = ["10.0.1.0/24"]
+storage_account_name = "backendarjun1432026"
+aks_name             = "demo-aks-cluster"
+dns_prefix           = "demoaks"
+kubernetes_version   = "1.34.4"
+node_count           = 1
+vm_size              = "Standard_D2s_v3"
